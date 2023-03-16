@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC48B9E5-AD65-3818-B31E-9E4DA3C63943}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>flutter_assemble</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\CMakeFiles\b50cdac9dccae660af68623b71dee243\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_windows.dll, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_export.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_windows.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_messenger.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral PROJECT_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard FLUTTER_TARGET=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.dll;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_export.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_messenger.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_windows.dll, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_export.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_windows.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_messenger.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral PROJECT_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard FLUTTER_TARGET=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.dll;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_export.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_messenger.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_windows.dll, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_export.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_windows.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_messenger.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral PROJECT_DIR=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard FLUTTER_TARGET=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.dll;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_export.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_messenger.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\CMakeFiles\5a45bd48a91c356a8ddb5e2d188b021a\flutter_assemble.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.dll;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_export.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_messenger.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.dll;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_export.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_messenger.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.dll;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_export.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_windows.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_messenger.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows -BC:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/build/windows --check-stamp-file C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows -BC:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/build/windows --check-stamp-file C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/windows -BC:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/build/windows --check-stamp-file C:/Project/ad1claiminsurence-ad1claim-flutter-dashboard/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\flutter\CMakeFiles\flutter_assemble">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{EA93920C-5650-3E53-8AFB-576CE43653A6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

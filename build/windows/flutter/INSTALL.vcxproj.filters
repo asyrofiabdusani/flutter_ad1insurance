@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\ad1claiminsurence-ad1claim-flutter-dashboard\build\windows\CMakeFiles\5a45bd48a91c356a8ddb5e2d188b021a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{02CF6BFD-83DA-3154-8B4B-671350CBE494}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
